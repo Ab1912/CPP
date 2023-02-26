@@ -10,6 +10,8 @@ private:
 public:
     student(string n, int a)
     {
+        // this->setname(n);
+        // this->setage(a);
         name = n;
         age = a;
     }
@@ -38,11 +40,11 @@ public:
 
 int main()
 {
-    student obj("Suresh", 25);
+    student obj("Ramesh", 25);
     obj.print();
-    obj.setname("Kumar");
+    obj.setname("Suresh");
     obj.setage(21);
-    cout << "Name : " << obj.getname() << endl;
-    cout<<"Age : " << obj.getage() << endl;
+    cout << obj.getname() << endl;
+    cout << obj.getage() << endl;
     return 0;
 }
