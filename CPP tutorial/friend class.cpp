@@ -20,6 +20,7 @@ public:
     }
 };
 
+
 int main()
 {
     B obj1;

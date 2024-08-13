@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    fstream obj("Test.txt",ios::app);
+    ofstream obj("Test.txt",ios::app);
     obj<<"Abi tutorial"<<endl;
     obj<<"C++"<<endl;
     obj.close();
